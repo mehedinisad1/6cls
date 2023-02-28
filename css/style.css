@@ -1,0 +1,121 @@
+/*common code*/
+body {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+/*	color: blue;*/
+}
+/*common code*/
+/*header strat*/
+header {padding: 10px;
+border: 3px solid #eef0f3;}
+
+.container {
+	 width: 90%;
+/*	 border: 1px solid red;*/
+	 margin: 0 auto;
+	 overflow: hidden;
+}
+.logo {
+	width: 10%;
+	float: left;
+}	
+.logo a {}
+.logo a img {width: 100%}
+
+.manu {
+	width: 54%;
+	float: right;
+    margin: 1px 0;
+}
+
+
+.manu ul {
+     float: right;
+}
+.manu ul li {list-style: none;float: left;padding: 9px}
+.manu ul li a {text-decoration: none}
+.manu ul li a:hover{color: skyblue;}
+.manu ul li :last-child a {margin-right: 0}
+/*headeer end*/
+
+
+/*banner strat*/
+.banner {
+	padding: 60px;
+
+}
+.content {
+     width: 50%;
+     text-align: center;
+     margin: 0 auto;
+}
+.content h1 {
+	color: #0f2656;
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+/*banner end*/
+
+/*service strat*/
+.service{padding: 40px}
+
+.content{
+    margin: 0 auto;
+	width: 85%;
+/*	border: 1px solid red;*/
+	overflow: hidden;
+}
+.s_h1{
+	width: 55%;
+/*	border: 1px solid red;*/
+	float: right;
+	font-size: 95px;
+    margin: 2px;
+    display: block;
+}
+.s_h2{
+    width: 40%;
+/*    border: 1px solid red;*/
+    display: inline-block;
+    text-align: right;
+    color: red;
+    font-size: 37px;
+}
+.s_p{display: block;
+width: 40%;
+/*border: 1px solid red;*/
+text-align: right;}    
+
+/*service end*/
+
+/*feature strat*/
+.feature{
+	padding: 30px;
+
+}
+.f_image{
+	width: 100%;
+	padding: right;
+	display: block;
+/*	border: 1px solid red;*/
+	overflow: hidden	
+	
+}
+.f_1{
+    padding: 25px;
+    float: left;
+}
+
+/*feature end*/
+
+/*footer strat*/
+.footer{
+    
+}
+.footer img{
+     width: 100%;
+}
+/*footer end*/
